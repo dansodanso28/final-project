@@ -1,0 +1,11 @@
+.show{
+  background:linear-gradient(rgba(10, 10, 10, 0.7), transparent),url(img/section.jpg);
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 30px;
+}
