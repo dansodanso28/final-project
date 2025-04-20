@@ -11,66 +11,150 @@ html{
 /* styling the nav bar*/
 
 .main-hero{
-    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 26rem;
+    background-color: rgb(255, 255, 255);
     color: black;
     position: sticky;
     z-index: 88;
     top: 0%;
 }
 .hero{
-    min-height: 7vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    
-
-
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    align-items:center;
+    flex: 1 1 26rem;
 }
+   
+
 .hero-child{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display:flex;
+    flex-wrap:wrap;
+    flex: 1 1 26rem;    
     font-size: 20px;
     margin-left: 2rem;
 }
 .hero-child img{
     padding-right:5px;
     padding-top: 4px;
-    border-radius: 33px;
+    border-radius: 5rem;
     margin:0.5rem;
 }
-.hero-child a{
+.hero-child h1{
+    margin-top: 4rem;
+}
+.hero-child a{ 
     text-decoration: none;
     color: black;
+ 
+       
 }
 
-.main-hero ul{
+  
+.main-hero .navy{
     display: flex;
-    flex: 2 1 25rem;
-    justify-content: space-evenly;
-    align-items:center ;
-    font-size: 20px;
-    list-style: none;
+    flex-wrap: wrap;
+    flex: 1 1 30rem;
+    
+    
+
 }
-.main-hero ul li a{
+.main-hero .navy a{
+    display: flex;
     text-decoration: none;
-    color: black;
+    color:black;
+    border: none;
+    background-color:none;
+    font-size: 20px;
+    padding: 0.5rem;
+
+   
+
+   
 }
-.main-hero ul li a:hover{
-    background-color: rgba(233, 227, 47, 0.8);
+.main-hero .navy button {
+    display: flex;
+    
+    border: none;
+    outline: none;
+    background:none;
+    padding-right: 5rem;
+
+}
+.main-hero .navy a:hover{
+    background-color: rgb(43, 36, 103);
+    color: white;
+    transition: 0.5s;
     border-radius: 5px;
+
+}
+/* hamburger*/
+.menu-toggle{
+    display: none;
+    flex-direction: column;
+    width: 30px;
+    height: 22px;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.menu-toggle span{
+    height: 4px;
+    background: #003399;
+    border-radius: 2px;
+    display: block ;
+}
+/* making the dropdown menu*/
+.drop-2{
+    display: none;
+    flex-wrap: wrap;
+    flex: 1 1 26rem;
+    position: absolute;
+    min-width: 300px;
+    padding:2rem;
+    padding-top: 4rem;
+    padding-left: 3rem;
+    line-height: 4rem;
+    background-color: white;
+    
+   
+}
+.drop-2 a{
+    background-color: none;
+    
+    
+    
+}
+.drop:hover .drop-2{
+    display: block;
+}
+.brows-ch{
+    display: none;
+    position: absolute;
+    column-count: 2;
+    border-radius: 5px;
+    padding: 2rem;
+    min-width: 300px;
+    background-color: white;
+    padding-top: 4rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+padding-bottom: 3rem;
+     
+}
+.brows-ch a{
+    line-height:4rem;
+    
+}
+.brows-drop:hover .brows-ch{
+    display: block;
 }
 
-.main-hero ul .drop-1{
-    display: block;
-    position: absolute;
-    margin-top: 15px;
-    margin-left: -15px;
-}
+
 /* here i style the body content*/
 .content{
-    background:linear-gradient(rgb(239, 229, 229), transparent) rgba(233, 227, 47, 0.8) ;
+    background:linear-gradient(rgb(239, 229, 229), transparent) rgba(255, 255, 255, 0.8) ;
     background-repeat: no-repeat;
     position: sticky;
     background-size: cover;
@@ -111,6 +195,7 @@ html{
 }
 .cont-child-1 ol li a:hover{
     color: white;
+    background-color: rgb(43, 36, 103);
 }
 .cont-child-1 ol h1{
     padding-bottom: rem;
@@ -152,14 +237,15 @@ html{
 
 /* the footer styling is done here*/
 .p-foot{
-    background:white ;
+    background:rgb(43, 36, 103) ;
+    color: white;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    min-height: 40vh;
+    min-height: 45vh;
     font-size: 17px;
-    margin: 1rem 10rem;
+    
     
 } 
 .p-foot h1{
@@ -173,12 +259,14 @@ html{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 90%;
+    margin: auto;
 
     
 
 }
 .resource{
-    margin-bottom: 3rem;
+    margin-bottom: 7rem;
 }
 
 
@@ -190,26 +278,27 @@ html{
 .box ol li a{
     text-decoration: none;
     list-style: none;
-    color: black;
+    color: white;
 }
 form{
     display: flex;
     justify-content: center;
     flex-direction: column;
     margin-bottom: 6rem;
+    margin-right: 3rem;
 }
 form input{
-    background-color: rgba(233, 227, 47, 0.8);
+    background-color: rgba(255, 255, 255, 0.8);
     height: 55px;
-    width: 300px;
+    width: 250px;
     border-radius: 20px;
     border: none; 
     outline: none;
-    padding-bottom: 1rem;
+    margin-right: 2rem;
    
 }
 form a i{
-    color: black;
+    color: #ebbd3f;
 }
 form .icons a i{
     padding-right: 2rem;
@@ -218,3 +307,25 @@ form .icons a i{
     padding-top: 2rem;
 
 }
+/* media quarry*/
+@media screen and (max-width: 768px){
+    .menu-toggle{
+        display: flex;
+    }
+    .navy{
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        padding: 1rem 0;
+        gap: 1rem;
+    }
+    .navy .show{
+        display: flex;
+    }
+    .brows-drop:hover .brows-ch,
+     .drop:hover .drop-2{
+        position: static ;
+        border: none;
+    }
+}
+  

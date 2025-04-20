@@ -1,0 +1,58 @@
+.us-us{
+  background:linear-gradient(rgba(10, 10, 10, 0.9), transparent),url(img/ContactBanner-01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 6rem;
+  height: 300px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding-top: 15rem;
+  padding-left: 15rem;
+  font-size: 25px;
+}
+.us-us h1{
+  padding-bottom: 1rem;
+}
+
+
+.con-p{
+  display: flex;
+  margin-left: 15rem;
+  font-size: 2rem;
+}
+.con-p h2{
+  padding-bottom: 2rem;
+  color:  rgb(36, 18, 201);
+}
+.con-ch{
+  padding-left: 4rem;
+  
+}
+.con-ch a{
+  text-decoration: none;
+  line-height: 7rem;
+  color:rgb(39, 24, 172)
+  
+}
+.gen{
+  margin-left: 15rem;
+  min-height: 40vh;
+  padding-top: 2rem;
+}
+.gen h1{
+  font-size: 35px;
+  padding-bottom: 2rem;
+}
+.gen p{
+  font-size: 18px;
+  padding-bottom: 1rem;
+} 
+.gen ul li{
+  padding-bottom: 2rem;
+  font-size: 18px;
+}
+.gen ul li a{
+  text-decoration: none;
+  color: rgb(180, 117, 8);
+}

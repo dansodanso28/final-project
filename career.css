@@ -1,0 +1,141 @@
+/* page content*/
+.car{
+  background: linear-gradient(rgba(10, 10, 10, 0.8), transparent), url(img/sunday_banking.jpeg);
+  background-repeat: no-repeat;
+  min-height: 50vh;
+  background-size: cover;
+  color: white;
+}
+.car-ch{
+  margin-left: 20rem;
+  display: flex;
+  flex-direction: column;
+  padding-top: 15rem;
+  font-size: 20px;
+}
+.car-ch h1{
+  padding-bottom:4rem ;
+}
+.mess-p{
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.mess{
+  margin-left: 15rem;
+  margin-right: 15rem;
+  font-size: 15px;
+  font-style: normal;
+  
+}
+.mess p{
+  padding-top: 3rem;
+}
+ .anch {
+  text-align: center;
+  padding-top: 5rem;
+  font-size: 20px;
+}
+.anch a{
+  text-decoration: none;
+  background-color: #ebbd3f;;
+  color: black;
+  padding: 1rem;
+  border-radius: 5px;
+}
+.anch a:hover{
+  background-color:#32316b;
+  color: white;
+  transition: 0.5s;
+}
+.mess-p .note{
+  padding-left: 15rem;
+  padding-top: 5rem;
+  padding-bottom: 4rem;
+}
+.mess-p .note h3{
+  font-size: 16px;
+  padding-bottom: 2rem;
+
+}
+.mess-p .note ul li{
+  padding-bottom: 1rem;
+  font-size: 15px;
+}
+
+/* the footer styling is done here*/
+.c-foot{
+  background:rgb(43, 36, 103) ;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 40vh;
+  width: 100%;
+  font-size: 17px;
+ 
+  
+} 
+.c-foot h1{
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}   
+.box{
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1 24rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+
+  
+
+}
+.resource{
+  margin-bottom: 3rem;
+}
+
+
+.box ol li{
+  list-style: none;
+  line-height: 1rem;
+  padding: 10px;
+}
+.box ol li a{
+  text-decoration: none;
+  list-style: none;
+  color: rgb(255, 255, 255);
+}
+form{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 6rem;
+  color: white;
+}
+form input{
+  background-color: rgb(251, 251, 250);
+  height: 55px;
+  width: 300px;
+  border-radius: 20px;
+  border: none; 
+  outline: none;
+  padding-bottom: 1rem;
+  margin-right: 2rem;
+ 
+}
+form a i{
+  color:  #ebbd3f;;;
+}
+form .icons a i{
+  padding-right: 2rem;
+  width: 50px;
+  font-size: 50px;
+  padding-top: 2rem;
+
+}
+
+
+
