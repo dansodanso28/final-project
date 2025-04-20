@@ -136,6 +136,16 @@ form .icons a i{
   padding-top: 2rem;
 
 }
+@media screen and (max-width: 768px){
+  .c-foot{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .box{
+    text-align: center;
+  }
+}
 
 
 

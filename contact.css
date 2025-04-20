@@ -1,12 +1,15 @@
 .us-us{
   background:linear-gradient(rgba(10, 10, 10, 0.9), transparent),url(img/ContactBanner-01.jpg);
   background-repeat: no-repeat;
+  width: 100%;
   background-size: cover;
   margin-bottom: 6rem;
   height: 300px;
   color: white;
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
+  flex: 1 1 26rem;
   padding-top: 15rem;
   padding-left: 15rem;
   font-size: 25px;
@@ -14,11 +17,18 @@
 .us-us h1{
   padding-bottom: 1rem;
 }
+.frame{
+  display: flex;
+ flex: 1 1 26rem ;
+ flex-direction: column;
+}
 
 
 .con-p{
   display: flex;
-  margin-left: 15rem;
+  flex-wrap: wrap;
+  flex:  1 1 26rem;
+  margin-left: 5rem;
   font-size: 2rem;
 }
 .con-p h2{
@@ -26,7 +36,10 @@
   color:  rgb(36, 18, 201);
 }
 .con-ch{
-  padding-left: 4rem;
+  padding-left: rem;
+  column-count: 2;
+  
+
   
 }
 .con-ch a{
@@ -57,9 +70,25 @@
   color: rgb(180, 117, 8);
 }
 @media screen and (max-width: 768px){
-  body{
-    width: 100%;
-  }
+  
+    .us-us{
+      background-size: cover;
+      background-position: sticky;
+    }
+    .con-p{
+      text-align: center;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .con-ch{
+      text-align: center;
+    }
+    iframe{
+      width:350px; 
+    height:200px;
+    text-align: center; 
+    }
+  
 }
   
 

@@ -327,5 +327,12 @@ form .icons a i{
         position: static ;
         border: none;
     }
+    .p-foot{
+        display: flex;
+        flex-direction: column;
+    }
+    .hero-child img{
+        text-align: center;
+    }
 }
   
