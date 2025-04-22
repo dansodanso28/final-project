@@ -3,6 +3,8 @@
   background-repeat: no-repeat;
   width: 100%;
   background-size: cover;
+  background-attachment: fixed;
+  background-position: ;
   margin-bottom: 6rem;
   height: 300px;
   color: white;
