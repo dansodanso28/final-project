@@ -57,6 +57,7 @@
   .p-foot{
       display: flex;
       flex-direction: column;
+      width: 100%;
   }
   .hero-child img{
       text-align: center;

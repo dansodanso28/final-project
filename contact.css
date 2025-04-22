@@ -74,6 +74,7 @@
     .us-us{
       background-size: cover;
       background-position: sticky;
+      width: 100%;
     }
     .con-p{
       text-align: center;
@@ -88,10 +89,7 @@
     height:200px;
     text-align: center; 
     }
-    
-  
-}
-@media screen and (max-width: 768px){
+
   .menu-toggle{
       display: flex;
   }
