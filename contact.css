@@ -103,25 +103,14 @@ flex-direction: column;
     .con-ch{
       text-align: center;
     }
-    iframe{
-      width:350px; 
+    .frame{
+    width:300px; 
     height:200px;
     text-align: center; 
     }
 
-  .menu-toggle{
-      display: flex;
-  }
-  .navy{
-      display: none;
-      flex-direction: column;
-      width: 100%;
-      padding: 1rem 0;
-      gap: 1rem;
-  }
-  .navy .show{
-      display: flex;
-  }
+  
+  
   .brows-drop:hover .brows-ch,
    .drop:hover .drop-2{
       position: static ;

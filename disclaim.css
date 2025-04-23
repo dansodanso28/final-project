@@ -36,23 +36,9 @@
   line-height: 2rem;
 }
 @media screen and (max-width: 768px){
-  .menu-toggle{
-      display: flex;
+  .hero-child{
+    text-align: center;
   }
-  .navy{
-      display: none;
-      flex-direction: column;
-      width: 100%;
-      padding: 1rem 0;
-      gap: 1rem;
-  }
-  .navy .show{
-      display: flex;
-  }
-  .brows-drop:hover .brows-ch,
-   .drop:hover .drop-2{
-      position: static ;
-      border: none;
   }
   .p-foot{
       display: flex;

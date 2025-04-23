@@ -164,7 +164,10 @@ form .icons a i{
     text-align: center;
   }
   .anch{
-    font-size: 15px;
+    font-size: 18px;
+  }
+  .gen{
+    text-align: center;
   }
   .anch a:hover{
     background-color:#32316b;
