@@ -24,8 +24,8 @@
   width: 100%;
 }
 .mess{
-  margin-left: 15rem;
-  margin-right: 15rem;
+  margin: 2rem 15rem;
+  
   font-size: 15px;
   
   
@@ -138,12 +138,22 @@ form .icons a i{
 
 }
 @media screen and (max-width: 768px){
+  body{
+    max-width: 100%;
+  }
   .mess{
-    margin: 0rem 0rem;
+    margin: 2rem 4rem;
     text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 26rem;
   }
   .mess p{
-    margin: 0rem 0rem;
+    margin: 2rem 0rem;
+    text-align: center;
+  }
+  .mess-p .note{
+    margin: 2rem 4rem;
     text-align: center;
   }
   .c-foot{
