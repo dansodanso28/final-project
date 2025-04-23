@@ -94,28 +94,27 @@ flex-direction: column;
       background-size: cover;
       background-position: sticky;
       width: 100%;
+      font-size: 1.8rem;
     }
     .con-p{
       text-align: center;
       display: flex;
       flex-wrap: wrap;
+      flex-direction: column;
     }
     .con-ch{
       text-align: center;
+      font-size: 1.5rem;
     }
     .frame{
-    width:20rem; 
-    height:10rem;
     text-align: center; 
+    padding-right: 3rem;
     }
-
+    iframe{
+      width: 10rem;
+      height: 2rem;
+    }
   
-  
-  .brows-drop:hover .brows-ch,
-   .drop:hover .drop-2{
-      position: static ;
-      border: none;
-  }
   .p-foot{
       display: flex;
       flex-direction: column;
