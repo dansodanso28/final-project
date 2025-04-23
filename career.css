@@ -152,9 +152,24 @@ form .icons a i{
     margin: 2rem 0rem;
     text-align: center;
   }
+  anch a{
+    text-decoration: none;
+    background-color: #ebbd3f;;
+    color: black;
+    padding: 1rem;
+    border-radius: 5px;}
+
   .mess-p .note{
-    margin: 2rem 4rem;
+    margin: 2rem 0;
     text-align: center;
+  }
+  .anch{
+    font-size: 15px;
+  }
+  .anch a:hover{
+    background-color:#32316b;
+    color: white;
+    transition: 0.5s;
   }
   .c-foot{
     display: flex;

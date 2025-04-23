@@ -5,7 +5,7 @@
   background-size: cover;
   background-attachment: fixed;
   background-position: sticky;
-  margin-bottom: 6rem;
+  margin-bottom: 1.5rem;
   height: 300px;
   color: white;
   display: flex;
@@ -15,9 +15,20 @@
   padding-top: 15rem;
   padding-left: 15rem;
   font-size: 25px;
+
 }
 .us-us h1{
   padding-bottom: 1rem;
+}
+#take-me-home{
+  font-size: 18px;
+  padding-bottom: 2rem;
+  padding-left: 5rem;
+}
+#take-me-home a{
+  color:  rgb(180, 117, 8);
+
+
 }
 .frame{
   display: flex;
@@ -38,8 +49,11 @@
   color:  rgb(36, 18, 201);
 }
 .con-ch{
-  padding-left: rem;
-  column-count: 2;
+  padding-left: 2rem;
+  display: flex;
+flex-direction: column;
+  flex-wrap: wrap;
+  flex: 1 1 26rem;
   
 
   
@@ -74,6 +88,9 @@
 @media screen and (max-width: 768px){
   
     .us-us{
+      display: flex;
+      flex-wrap: wrap;
+      flex: 1 1 26rem;
       background-size: cover;
       background-position: sticky;
       width: 100%;
