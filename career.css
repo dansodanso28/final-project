@@ -5,6 +5,7 @@
   min-height: 50vh;
   background-size: cover;
   color: white;
+  
 }
 .car-ch{
   margin-left: 20rem;
@@ -26,7 +27,7 @@
   margin-left: 15rem;
   margin-right: 15rem;
   font-size: 15px;
-  font-style: normal;
+  
   
 }
 .mess p{
@@ -137,6 +138,10 @@ form .icons a i{
 
 }
 @media screen and (max-width: 768px){
+  .mess p{
+    margin: 3rem 0rem;
+    text-align: center;
+  }
   .c-foot{
     display: flex;
     flex-direction: column;
@@ -145,36 +150,4 @@ form .icons a i{
   .box{
     text-align: center;
   }
-  @media screen and (max-width: 768px){
-    .menu-toggle{
-        display: flex;
-    }
-    .navy{
-        display: none;
-        flex-direction: column;
-        width: 100%;
-        padding: 1rem 0;
-        gap: 1rem;
-    }
-    .navy .show{
-        display: flex;
-    }
-    .brows-drop:hover .brows-ch,
-     .drop:hover .drop-2{
-        position: static ;
-        border: none;
-    }
-    .p-foot{
-        display: flex;
-        flex-direction: column;
-    }
-    .hero-child img{
-        text-align: center;
-    }
 }
-  
-
-}
-
-
-
