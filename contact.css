@@ -108,11 +108,14 @@ flex-direction: column;
     }
     .frame{
     text-align: center; 
-    padding-right: 3rem;
+    
     }
     iframe{
-      width: 10rem;
-      height: 2rem;
+      text-align: center;
+      padding-bottom: 1.5rem;
+    }
+    .gen{
+      text-align: center;
     }
   
   .p-foot{
